@@ -8,7 +8,6 @@ def checaConflito(array: list[list]) -> int:
         if(array[i][1] > array[-1][0]):
             salas+=1
     return salas
-    
+
 input = sorted([[0,10],[10,20]])
 salas = checaConflito(input)
-print(salas)
